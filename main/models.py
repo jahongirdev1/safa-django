@@ -143,7 +143,6 @@ class Tours(models.Model):
     tour_categories = models.ForeignKey(TourCategories, on_delete=models.CASCADE)
     tour_guides = models.ForeignKey(TourGuides, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='tours/')
-
     price = models.FloatField(default=0)
     departure_date = models.DateField(auto_now_add=True)
     return_date = models.DateField(auto_now_add=True)
