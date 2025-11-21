@@ -7,6 +7,7 @@ name = "pypi"
 django = ">=5.0"
 django-ckeditor = "*"
 django-ckeditor-5 = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
