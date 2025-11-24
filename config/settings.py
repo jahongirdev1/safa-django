@@ -51,6 +51,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'django_ckeditor_5',
+    'apps.sadaqa',
+    'apps.tour',
+    'rest_framework',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
